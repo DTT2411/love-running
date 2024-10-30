@@ -75,31 +75,6 @@ main {
     margin-top: 47px;
 }
 
-main hr {
-    border-top: 1px solid #3a3a3a;
-    margin: 5px 0;
-}
-
-#reasons {
-    width: 90%;
-    margin: 20px auto;
-}
-
-#reasons > h2 {
-    font-size: 280%;
-    margin-bottom: 20px;
-    text-align: center;
-}
-
-#benefits > div {
-    margin-bottom: 20px;
-}
-
-#benefits-physical > p, #benefits-mental > p {
-    padding: 0 20px;
-    margin-bottom: 20px;
-}
-
 /* Hero section */
 #hero {
     height: 600px;
@@ -122,6 +97,39 @@ main hr {
 
 #cover-text > h2, #cover-text > h3 {
     color: #ffffff;
+}
+
+/* Reasons Section */
+
+#reasons {
+    width: 90%;
+    margin: 20px auto;
+}
+
+#reasons > h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 280%;
+}
+
+#benefits-physical > div, #benefits-mental > div {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+#benefits p {
+    padding: 0 20px;
+
+}
+
+#benefits hr {
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
+}
+
+div > i {
+    display: flex;
+    align-items: end;
 }
 
 /* Footer */
