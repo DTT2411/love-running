@@ -75,6 +75,20 @@ main {
     margin-top: 47px;
 }
 
+#reasons {
+    width: 90%;
+    margin: 20px auto;
+}
+
+#reasons > h2 {
+    font-size: 280%;
+    margin-bottom: 20px;
+}
+
+#benefits > div {
+    margin-bottom: 20px;
+}
+
 /* Hero section */
 #hero {
     height: 600px;
