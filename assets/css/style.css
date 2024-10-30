@@ -127,11 +127,6 @@ main {
     margin: 5px 0;
 }
 
-div > i {
-    display: flex;
-    align-items: end;
-}
-
 /* Footer */
 #social-networks {
     text-align: center;
